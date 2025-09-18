@@ -68,11 +68,11 @@ CL-USER> (append my-list (nth 2 my-list))
 <img src="завдання.png">
  
 ```lisp
-CL-USER> (let ((under1 (list 4 'e)))
+CL-USER> (let ((under1 (list 4 'E 'F)))
   (let ((v5 (list 'D under1 (list 5) 'F)))
     v5))
 
-(D (4 E) (5) F)
+(D (4 E F) (5) F)
 ```
 </p>
 
