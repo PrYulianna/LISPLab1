@@ -66,6 +66,7 @@ CL-USER> (append my-list (nth 2 my-list))
 ## Варіант 21 (5)
 <p align="center">
 <img src="завдання.png">
+ 
 ```lisp
 CL-USER> (let ((under1 (list 4 'e)))
   (let ((v5 (list 'D under1 (list 5) 'F)))
