@@ -69,10 +69,10 @@ CL-USER> (append my-list (nth 2 my-list))
  
 ```lisp
 CL-USER> (let ((under1 (list 4 'E 'F)))
-  (let ((v5 (list 'D under1 5 'F)))
+  (let ((v5 (list 'D under1 '(5) (last under1))))
     v5))
 
-(D (4 E F) 5 F)
+(D (4 E F) (5) (F))
 ```
 </p>
 
